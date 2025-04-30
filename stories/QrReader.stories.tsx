@@ -23,6 +23,7 @@ const Template: Story<QrReaderProps> = (args) => {
         {...args}
         onResult={(result, error) => {
           if (result) {
+            console.log('Result:', result);
             setData(result);
           }
 
