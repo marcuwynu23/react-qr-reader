@@ -1,6 +1,6 @@
 {
-  "name": "react-qr-reader",
-  "version": "3.0.0-beta-1",
+  "name": "my-react-qr-reader",
+  "version": "3.1.1",
   "description": "A React Component for reading QR codes from the webcam",
   "scripts": {
     "build": "rollup -c",
@@ -15,7 +15,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-qr-reader/react-qr-reader.git"
+    "url": "git+https://github.com/marcuwynu23/react-qr-reader.git"
   },
   "keywords": [
     "react",
@@ -26,16 +26,17 @@
   "author": "thomas billiet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-qr-reader/react-qr-reader/issues"
+    "url": "https://github.com/marcuwynu23/react-qr-reader/issues"
   },
-  "homepage": "https://github.com/react-qr-reader/react-qr-reader#readme",
+  "homepage": "https://github.com/marcuwynu23/react-qr-reader#readme",
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0"
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "@zxing/browser": "0.0.7",
     "@zxing/library": "^0.18.3",
+    "eslint-config-react-app": "^7.0.1",
     "rollup": "^2.67.2"
   },
   "devDependencies": {
@@ -59,7 +60,6 @@
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "eslint": "^7.18.0",
-    "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
